@@ -101,6 +101,62 @@
 .ex-7-img:hover {
     filter: sepia(1) ;
 }
+/* soluzione 7*/
+
+/* soluzione 8*/
+.ex-8-img {
+    transition: 2s ;
+}
+
+.ex-8-img:hover {
+    border-radius: 20px ;
+    filter: sepia(1) ;
+
+}
+/* soluzione 8*/
+
+/* soluzione 9*/
+.ex-9-img {
+    transition: 3s ;
+}
+
+.ex-9-img:hover {
+    filter: sepia(1) ;
+    border-radius: 20px ;
+    transform: scale(1.5) ;
+}
+/* soluzione 9*/
+
+/* soluzione 10*/
+@keyframes rotazione {
+from { transform: rotate(0deg);}
+to { transform: rotate(-360deg);}
+} 
+
+.ex-10-icon {
+    animation: rotazione 1s infinite  ;
+}
+/* soluzione 10*/
+
+/* soluzione 11*/
+.ex-11-icon:hover {
+    animation: rotazione2 1s ;
+}
+
+@keyframes rotazione2 {
+    0% { transform: rotate(0deg);}
+    50% { transform: rotate(300deg);}
+    100% {transform: rotate(0deg);}
+}
+/* soluzione 11*/
+
+/* soluzione 12*/
+
+
+/* soluzione 12*/
+
+/* soluzione 13*/
+/* soluzione 13*/
 
 
 
